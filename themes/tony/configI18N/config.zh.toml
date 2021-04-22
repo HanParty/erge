@@ -3,7 +3,7 @@
 # 图标: https://RemixIcon.com/
 
 baseURL = "http://example.com/"
-title = "二哥erge"
+title = "HUGO-THEME-TONY"
 languageCode = "zh-CN"
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
@@ -12,7 +12,7 @@ hasCJKLanguage = true
 theme = "tony"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = "二哥erge"
+newContentEditor = ""
 
 # 摘要的字数限制
 summaryLength = 235
@@ -26,17 +26,17 @@ paginate = 10
 # 作者信息
 [author]
     # 名字
-    name = "二哥erge"
+    name = "HUGO-THEME-TONY"
     # 邮箱
     email = "mail@example.com"
     # 座右铭或简介
-    motto = "二哥erge人狠话不多"
+    motto = "HUGO THEME TONY"
     # 头像
     avatar = "/images/t.jpg"
     # 网站（默认值：baseURL）
     website = "/"
     # GitHub
-    github = ""
+    github = "
 
 # 页面分类
 [taxonomies]
@@ -57,18 +57,14 @@ paginate = 10
         url = "/"
         name = "首页"
         weight = 1
-   [[menu.main]]
-        url = "/posts/"
-        name = "好看的"
-        weight = 2
-   [[menu.main]]
+    [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 3
+        weight = 2
 
 [[params.pinned]]
-    title = "二哥erge"
-    name = "二哥erge"
+    title = "HUGO-THEME-TONY"
+    name = "HUGO-THEME-TONY"
     icon = "ri-code-box-line"
     url = "/"
 
@@ -160,8 +156,8 @@ paginate = 10
     # 是否开启
     enableCopyright = true
 
-    copyrightName = "二哥erge"
-    copyrightLink = "https://erge.ga"
+    copyrightName = "CC BY-NC 4.0"
+    copyrightLink = "https://creativecommons.org/licenses/by-nc/4.0/"
 
     ######################################
     # 目录
